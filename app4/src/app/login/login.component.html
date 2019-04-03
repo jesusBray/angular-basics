@@ -1,0 +1,11 @@
+<form class="example-form" [formGroup]="getForm" (ngSubmit)="onSubmit()">
+  <mat-form-field class="input">
+    <input matInput placeholder="Email" formName formControlName="email" (input)="getChangeEvent($event.target.value)">
+  </mat-form-field>
+
+  <mat-form-field class="input">
+    <input matInput placeholder="Password" formControlName="pass">
+  </mat-form-field>
+  <button type="submit" color="primary">Submit</button>
+</form>
+<app-submit [user]="user" [pass]="pass"></app-submit>
