@@ -1,0 +1,26 @@
+{
+  "name": "my-first-library-with-angular",
+  "version": "1.0.4",
+  "description":"A simple typeahead directive to be used with Angular Material.",
+  "author": "Yesvill.art.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jesusBray"
+  },
+  "bugs": {
+    "url": "NaN"
+  },
+  "homepage": "https://github.com/jesusBray",
+  "keywords": [
+    "angular",
+    "javascript",
+    "typescript",
+    "typeahead",
+    "angular-material"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "~7.2.0",
+    "@angular/core": "~7.2.0"
+  }
+}
