@@ -1,0 +1,21 @@
+
+.container-main{  
+  display: flex;
+  flex-direction: row;
+  background: rgba(41, 37, 37, 0.397);
+
+}
+
+  .text-login{
+    padding: 10%;
+    width: 50%;
+    flex-grow: 1;
+    background: rgba(25, 88, 19, 0.445);
+  }
+  .container-login{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    flex-grow: 1;
+  }

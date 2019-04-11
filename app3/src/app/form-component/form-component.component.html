@@ -1,0 +1,33 @@
+<!-- container main -->
+<mat-toolbar class="tolbar"  mat-raised color="primary">Registration Form</mat-toolbar>
+<div class="container-main">
+
+    <p class="text-login">
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna 
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+        ullamco laboris nisi ut aliquip
+    </p>
+    
+    <!--desde aqui un (item contenedor del login)-->
+    <form  [formGroup]="registerForm" (ngSubmit)="onSubmit()" class="container-login">
+
+    <mat-form-field>
+        <input matInput placeholder="Name" formControlName="name" class="form-control-name" >
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput placeholder="Last Name" formControlName="lastName" class="form-control-lastName" >
+    </mat-form-field>
+
+    <mat-form-field>
+    <mat-select placeholder="Gender" formControlName="Gender">
+        <mat-option value="men">Men</mat-option>
+        <mat-option value="woman">Woman</mat-option>
+        <mat-option value="other">Other</mat-option>
+    </mat-select>
+    </mat-form-field>
+    <button mat-button type="submit" mat-raised-button color="primary" class="button-submit" >Submit</button>
+    </form>
+<!--termina el login-->
+</div>
+<!-- fin del container main -->
