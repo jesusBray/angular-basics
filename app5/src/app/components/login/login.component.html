@@ -1,0 +1,14 @@
+<mat-toolbar color="primary">Login</mat-toolbar>
+
+<div class="login">
+  <div class="login-triangle"></div>
+  
+  <h2 class="login-header">Log in</h2>
+
+  <form class="login-container" [formGroup]="login" (onSubmit)="onSubmit()">
+    <p><input type="email" placeholder="Email" formControlName="emial"></p>
+    <p><input type="password" placeholder="Password" formControlName="password"></p>
+    <p><input type="submit"></p>
+  </form>
+  
+</div>
