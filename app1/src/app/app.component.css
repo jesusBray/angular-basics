@@ -1,0 +1,37 @@
+/* .contenedor{
+    background: tomato;
+    display: flex;
+    justify-content: space-between;
+}
+.boton1{
+    box-shadow: 0 0 20px rgba(10, 10, 10, 0.63);
+    
+    background: rgb(92, 91, 91)
+} */
+
+.padre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.children1{
+    background: tomato;
+}
+.children2{
+    background: white;
+}
+.children3{
+    background: tomato;
+}
